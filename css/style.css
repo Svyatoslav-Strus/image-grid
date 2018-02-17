@@ -3,23 +3,18 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.container {
-    margin-left: auto;
-    margin-right: auto;
-}
 
 img {
     max-width: 100%;
     height: auto;
 }
 .container{
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     max-width: 1200px;
 }
-.box{
-    padding: 20px;
-    background: grey;
-}
+
 .grid:before, .grid:after {
     content: " ";
     display: table;
